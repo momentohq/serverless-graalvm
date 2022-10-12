@@ -3,7 +3,7 @@
 Simple demo API showing how to use Momento GRPC SDK from GraalVM inside of AWS Lambda.
 
 ### Instructions to run Demo
-1. Replace Hard Coded Momento Token in Handler.java remember to use token for `us-west-2` since that's where we will be deploying in step 4 below.
+1. Replace Hard Coded Momento Token in [Handler.java](https://github.com/momentohq/serverless-graalvm/blob/main/src/main/java/com/momento/Handler.java#L11) remember to use token for `us-west-2` since that's where we will be deploying in step 4 below.
 
 2. Start docker container used to build native image for lambda runtime
 ```console
